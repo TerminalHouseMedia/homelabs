@@ -29,6 +29,7 @@ workstation ──▶ :3000 Grafana        dashboards
 - `install-node-exporter.sh` — installs node_exporter on a running machine, offline
 - `install-node-exporter-image.sh` — same, for a Warewulf image chroot
 - `nodes.json.example` — target list for `file_sd`
+- `homelab-fleet.json` — a single-screen Grafana dashboard showing the whole fleet at once
 
 ## Video chapters
 
@@ -290,6 +291,37 @@ Others:
 - [18648](https://grafana.com/grafana/dashboards/18648-node-exporter/) minimal
 
 Dashboards built for Grafana 11 or 12 may show blank panels on 10.x.
+
+## 8. Fleet dashboard
+
+1860 shows one host at a time. Every panel is filtered by the Instance dropdown, so it
+cannot show the fleet and is too tall for a fixed display.
+
+`homelab-fleet.json` in this repo is a single screen with no scrolling: node up/down
+counts, fleet CPU and memory, per-host CPU, memory, network, load, disk I/O, root
+filesystem usage, and uptime.
+
+Dashboards → New → Import → paste the file contents → Load → select Prometheus → Import.
+
+Legends show hostnames instead of IPs. That comes from joining each metric against
+`node_uname_info`:
+
+```promql
+(100 - (avg by(instance) (rate(node_cpu_seconds_total{mode="idle",job="node"}[5m])) * 100))
+  * on(instance) group_left(nodename) node_uname_info
+```
+
+The join only works if your hosts have distinct hostnames. Two of mine were still
+`localhost.localdomain` and collided in every legend until I fixed them:
+
+```bash
+hostnamectl set-hostname rhel01
+```
+
+node_exporter reads `uname` on every scrape, so it corrects within a minute. No restart.
+
+For a wall display or OBS browser source, append `&kiosk` to the dashboard URL to hide
+Grafana's navigation.
 
 ---
 
