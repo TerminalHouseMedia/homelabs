@@ -1,6 +1,6 @@
 # Prometheus + Node Exporter + Grafana on a Homelab Cluster
 
-Companion repo for the video: *(link)*
+Companion repo for the video: **[Monitor Your Proxmox Homelab with Prometheus + Grafana](https://www.youtube.com/watch?v=FK3gSoV4Ftg)**
 
 Monitors six machines: one metrics server, a Warewulf head node, two RHEL servers, and two
 stateless compute nodes.
