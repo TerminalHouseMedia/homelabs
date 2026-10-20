@@ -1,9 +1,13 @@
+Failed to create stream fd: Operation not permitted
+Failed to create stream fd: Operation not permitted
+Failed to create stream fd: Operation not permitted
 # Prometheus + Node Exporter + Grafana on a Homelab Cluster
 
 Companion repo for the video: **[Monitor Your Proxmox Homelab with Prometheus + Grafana](https://www.youtube.com/watch?v=FK3gSoV4Ftg)**
 
-Monitors six machines: one metrics server, a Warewulf head node, two RHEL servers, and two
-stateless compute nodes.
+Originally built for six machines: one metrics server, a Warewulf head node, two RHEL servers,
+and two stateless compute nodes. The deployment now also monitors the Proxmox hosts and the AI
+management VM.
 
 ## How it works
 
@@ -20,7 +24,7 @@ workstation ──▶ :3000 Grafana        dashboards
 ## Tested on
 
 - AlmaLinux 10.2 (metrics server), Rocky Linux 9.6 (clients)
-- Prometheus 3.13.1, node_exporter 1.12.1, Grafana 10.2.6
+- Prometheus 3.15.0, node_exporter 1.12.1, Grafana 10.2.6
 - Warewulf 4.7.0 with a `rockylinux-9.6` image
 - SELinux enforcing
 
@@ -30,6 +34,31 @@ workstation ──▶ :3000 Grafana        dashboards
 - `install-node-exporter-image.sh` — same, for a Warewulf image chroot
 - `nodes.json.example` — target list for `file_sd`
 - `homelab-fleet.json` — a single-screen Grafana dashboard showing the whole fleet at once
+
+## 2026 expansion
+
+The monitoring server now tracks infrastructure on both networks:
+
+```text
+localhost:9100       AlmaBrain
+10.0.0.1:9100        Warewulf controller
+10.0.0.2:9100        RHCSA client
+10.0.0.3:9100        RHCSA client
+10.0.0.10:9100       stateless compute node
+10.0.0.11:9100       stateless compute node
+192.168.1.29:9100    ai01
+192.168.1.42:9100    hornetsnest
+192.168.1.77:9100    buzz
+```
+
+Completed expansion tasks:
+
+- [x] Added `ai01`, `hornetsnest`, and `buzz` to file-based target discovery.
+- [x] Preserved existing dashboards and confirmed metrics for every powered-on target.
+- [x] Documented that powered-off practice nodes correctly appear DOWN rather than being deleted.
+
+The target list describes what should be monitored, not what must stay powered on. Stopped RHCSA
+and compute practice machines remain configured so they automatically return to UP at boot.
 
 ## Video chapters
 
