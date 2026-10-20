@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Prometheus + Node Exporter + Grafana on a Homelab Cluster
 
 Companion repo for the video: **[Monitor Your Proxmox Homelab with Prometheus + Grafana](https://www.youtube.com/watch?v=FK3gSoV4Ftg)**
@@ -41,14 +38,14 @@ The monitoring server now tracks infrastructure on both networks:
 
 ```text
 localhost:9100       AlmaBrain
-10.0.0.1:9100        Warewulf controller
-10.0.0.2:9100        RHCSA client
-10.0.0.3:9100        RHCSA client
-10.0.0.10:9100       stateless compute node
-10.0.0.11:9100       stateless compute node
-192.168.1.29:9100    ai01
-192.168.1.42:9100    hornetsnest
-192.168.1.77:9100    buzz
+198.51.100.1:9100    Warewulf controller
+198.51.100.2:9100    RHCSA client
+198.51.100.3:9100    RHCSA client
+198.51.100.10:9100   stateless compute node
+198.51.100.11:9100   stateless compute node
+192.0.2.29:9100      management workstation
+192.0.2.42:9100      Proxmox node
+192.0.2.77:9100      Proxmox node
 ```
 
 Completed expansion tasks:
@@ -143,11 +140,11 @@ Firewall. Prometheus has no authentication, so do not open it to everything.
 
 ```bash
 firewall-cmd --permanent --remove-service=cockpit
-firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.1.0/24" port port="9090" protocol="tcp" accept'
+firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.0.2.0/24" port port="9090" protocol="tcp" accept'
 firewall-cmd --reload
 ```
 
-Replace `192.168.1.0/24` with the subnet you browse from.
+Replace `192.0.2.0/24` with the subnet you browse from.
 
 ## 4. Install node_exporter
 
@@ -181,9 +178,9 @@ tar czf node-exporter-bundle.tar.gz node_exporter-${VER}.linux-amd64.tar.gz inst
 Push to each node:
 
 ```bash
-PROM_IP=10.0.0.121
+PROM_IP=198.51.100.121
 
-for n in 10.0.0.2 10.0.0.3; do
+for n in 198.51.100.2 198.51.100.3; do
   echo "=== $n ==="
   scp -o StrictHostKeyChecking=accept-new node-exporter-bundle.tar.gz admin@$n:/tmp/ \
     && ssh -t admin@$n "cd /tmp && tar xzf node-exporter-bundle.tar.gz && sudo ./install-node-exporter.sh $PROM_IP" \
@@ -208,14 +205,14 @@ IMG=rockylinux-9.6
 ROOT=/var/lib/warewulf/chroots/$IMG/rootfs
 
 sudo cp install-node-exporter-image.sh node_exporter-1.12.1.linux-amd64.tar.gz $ROOT/tmp/
-sudo wwctl image exec $IMG -- /bin/bash /tmp/install-node-exporter-image.sh 10.0.0.121
+sudo wwctl image exec $IMG -- /bin/bash /tmp/install-node-exporter-image.sh 198.51.100.121
 sudo wwctl image build $IMG
 ```
 
 `wwctl` needs root. Reboot a node, then check from the Prometheus server:
 
 ```bash
-curl -sf -o /dev/null --max-time 5 http://10.0.0.10:9100/metrics && echo OK
+curl -sf -o /dev/null --max-time 5 http://198.51.100.10:9100/metrics && echo OK
 ```
 
 Test from the Prometheus server, not the head node. The image firewall rule only allows
@@ -242,11 +239,11 @@ cat > /etc/prometheus/targets/nodes.json <<'EOF'
   {
     "targets": [
       "localhost:9100",
-      "10.0.0.1:9100",
-      "10.0.0.2:9100",
-      "10.0.0.3:9100",
-      "10.0.0.10:9100",
-      "10.0.0.11:9100"
+      "198.51.100.1:9100",
+      "198.51.100.2:9100",
+      "198.51.100.3:9100",
+      "198.51.100.10:9100",
+      "198.51.100.11:9100"
     ],
     "labels": {}
   }
@@ -291,7 +288,7 @@ EOF
 setsebool -P grafana_can_tcp_connect_prometheus_port on
 
 systemctl enable --now grafana-server
-firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.1.0/24" port port="3000" protocol="tcp" accept'
+firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.0.2.0/24" port port="3000" protocol="tcp" accept'
 firewall-cmd --reload
 
 systemctl is-active grafana-server
