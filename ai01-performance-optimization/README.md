@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Optimize an Ubuntu Desktop VM for Local AI Administration
 
 `ai01` runs the local AI desktop and administers the homelab. The goal was to return resources
