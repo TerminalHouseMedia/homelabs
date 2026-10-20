@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Expand a Proxmox Homelab to Two Nodes
 
 This project added a second Proxmox host, `buzz`, to the existing `hornetsnest` environment
