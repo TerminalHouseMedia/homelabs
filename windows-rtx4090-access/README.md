@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Add a Windows RTX 4090 Workstation to the Homelab
 
 This project made a Windows gaming and music workstation available as optional GPU compute

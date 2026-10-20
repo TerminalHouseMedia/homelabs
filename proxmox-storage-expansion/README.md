@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Recover and Register Proxmox Storage Capacity
 
 The hosts had usable storage that was not available for VM disks. This project registered the

@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # homelabs
 
 Build notes and scripts from my homelab. Each folder is a self-contained project. Some projects
