@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Migrate a Vendor-Specific AI VM to `ai01`
 
 The management desktop started as a vendor-specific AI workstation. It was converted into a
