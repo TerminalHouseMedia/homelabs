@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 # Optimize an AlmaLinux Infrastructure VM
 
 This project right-sized a multi-purpose AlmaLinux infrastructure VM while retaining its desktop
