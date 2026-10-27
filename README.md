@@ -8,7 +8,7 @@ also have a companion video.
 | [gpu-worker-monitoring](gpu-worker-monitoring/) | Windows GPU metrics, collector freshness, and Prometheus scrape examples. | — |
 | [prometheus-grafana](prometheus-grafana/) | Monitoring infrastructure and lab nodes with Prometheus, node_exporter, and Grafana. Includes stateless Warewulf compute nodes. | [Watch](https://www.youtube.com/watch?v=FK3gSoV4Ftg) |
 | [tailscale-remote-access](tailscale-remote-access/) | Reaching both homelab networks remotely through an AlmaLinux subnet router. | [Watch](https://www.youtube.com/watch?v=VumPIXVq9lg) |
-| [proxmox-cluster-expansion](proxmox-cluster-expansion/) | Adding a second Proxmox node and forming the two-node `the-hive` cluster. | — |
+| [proxmox-cluster-expansion](proxmox-cluster-expansion/) | Two-node Proxmox expansion, historical validation, and quorum limitations. | — |
 | [proxmox-storage-expansion](proxmox-storage-expansion/) | Registering unused thin storage and validating more than 2 TiB of VM headroom. | — |
 | [homelab-ssh-access](homelab-ssh-access/) | A key-based access pattern for LAN, jump-host, private-lab, and Windows systems. | — |
 | [windows-rtx4090-access](windows-rtx4090-access/) | Adding a Windows RTX 4090 workstation as reachable homelab compute. | — |
