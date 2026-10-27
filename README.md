@@ -5,6 +5,7 @@ also have a companion video.
 
 | Project | What it covers | Video |
 |---|---|---|
+| [gpu-worker-monitoring](gpu-worker-monitoring/) | Windows GPU metrics, collector freshness, and Prometheus scrape examples. | — |
 | [prometheus-grafana](prometheus-grafana/) | Monitoring infrastructure and lab nodes with Prometheus, node_exporter, and Grafana. Includes stateless Warewulf compute nodes. | [Watch](https://www.youtube.com/watch?v=FK3gSoV4Ftg) |
 | [tailscale-remote-access](tailscale-remote-access/) | Reaching both homelab networks remotely through an AlmaLinux subnet router. | [Watch](https://www.youtube.com/watch?v=VumPIXVq9lg) |
 | [proxmox-cluster-expansion](proxmox-cluster-expansion/) | Adding a second Proxmox node and forming the two-node `the-hive` cluster. | — |
@@ -15,8 +16,8 @@ also have a companion video.
 | [ai01-performance-optimization](ai01-performance-optimization/) | Right-sizing the Ubuntu AI workstation and reclaiming RAM and thin storage. | — |
 | [almabrain-optimization](almabrain-optimization/) | Right-sizing the jump host and monitoring server while preserving its GNOME desktop. | — |
 
-Everything here was run on real hardware. Where something broke, the fix is documented in
-that project's README.
+Project READMEs distinguish historical deployment evidence, publication checks, and remaining
+validation. Where something broke, the recovery is documented.
 
 ## Current lab capability
 
