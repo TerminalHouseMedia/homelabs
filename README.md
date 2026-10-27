@@ -9,7 +9,7 @@ also have a companion video.
 | [prometheus-grafana](prometheus-grafana/) | Monitoring infrastructure and lab nodes with Prometheus, node_exporter, and Grafana. Includes stateless Warewulf compute nodes. | [Watch](https://www.youtube.com/watch?v=FK3gSoV4Ftg) |
 | [tailscale-remote-access](tailscale-remote-access/) | Reaching both homelab networks remotely through an AlmaLinux subnet router. | [Watch](https://www.youtube.com/watch?v=VumPIXVq9lg) |
 | [proxmox-cluster-expansion](proxmox-cluster-expansion/) | Two-node Proxmox expansion, historical validation, and quorum limitations. | — |
-| [proxmox-storage-expansion](proxmox-storage-expansion/) | Registering unused thin storage and validating more than 2 TiB of VM headroom. | — |
+| [proxmox-storage-expansion](proxmox-storage-expansion/) | LVM-thin storage recovery, historical capacity evidence, and discard validation. | — |
 | [homelab-ssh-access](homelab-ssh-access/) | A key-based access pattern for LAN, jump-host, private-lab, and Windows systems. | — |
 | [windows-rtx4090-access](windows-rtx4090-access/) | Adding a Windows RTX 4090 workstation as reachable homelab compute. | — |
 | [ai-management-vm-migration](ai-management-vm-migration/) | Removing a vendor-specific AI client while preserving data and renaming the management VM. | — |
