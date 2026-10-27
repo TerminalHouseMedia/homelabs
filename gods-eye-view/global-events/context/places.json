@@ -1,0 +1,1613 @@
+[
+  {
+    "name": "Fiji",
+    "lat": -17.826099,
+    "lon": 177.975427,
+    "aliases": [
+      "Fiji"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Tanzania",
+    "lat": -6.051866,
+    "lon": 34.959183,
+    "aliases": [
+      "Tanzania",
+      "United Republic of Tanzania"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Western Sahara",
+    "lat": 23.967592,
+    "lon": -12.630304,
+    "aliases": [
+      "Western Sahara"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Canada",
+    "lat": 60.324287,
+    "lon": -101.9107,
+    "aliases": [
+      "Canada"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "United States of America",
+    "lat": 39.538479,
+    "lon": -97.482602,
+    "aliases": [
+      "United States of America",
+      "United States"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Kazakhstan",
+    "lat": 49.054149,
+    "lon": 68.685548,
+    "aliases": [
+      "Kazakhstan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Uzbekistan",
+    "lat": 41.693603,
+    "lon": 64.005429,
+    "aliases": [
+      "Uzbekistan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Papua New Guinea",
+    "lat": -5.695285,
+    "lon": 143.910216,
+    "aliases": [
+      "Papua New Guinea"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Indonesia",
+    "lat": -0.954404,
+    "lon": 101.892949,
+    "aliases": [
+      "Indonesia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Argentina",
+    "lat": -33.501159,
+    "lon": -64.173331,
+    "aliases": [
+      "Argentina"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Chile",
+    "lat": -38.151771,
+    "lon": -72.318871,
+    "aliases": [
+      "Chile"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "lat": -1.858167,
+    "lon": 23.458829,
+    "aliases": [
+      "Democratic Republic of the Congo"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Somalia",
+    "lat": 3.568925,
+    "lon": 45.19238,
+    "aliases": [
+      "Somalia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Kenya",
+    "lat": 0.549043,
+    "lon": 37.907632,
+    "aliases": [
+      "Kenya"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Sudan",
+    "lat": 16.330746,
+    "lon": 29.260657,
+    "aliases": [
+      "Sudan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Chad",
+    "lat": 15.142959,
+    "lon": 18.645041,
+    "aliases": [
+      "Chad"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Haiti",
+    "lat": 19.263784,
+    "lon": -72.224051,
+    "aliases": [
+      "Haiti"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Dominican Republic",
+    "lat": 19.104137,
+    "lon": -70.653998,
+    "aliases": [
+      "Dominican Republic"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Russia",
+    "lat": 58.249357,
+    "lon": 44.686469,
+    "aliases": [
+      "Russia",
+      "Russian Federation"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "The Bahamas",
+    "lat": 26.401789,
+    "lon": -77.146688,
+    "aliases": [
+      "The Bahamas",
+      "Bahamas"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Falkland Islands",
+    "lat": -51.608913,
+    "lon": -58.738602,
+    "aliases": [
+      "Falkland Islands",
+      "Falkland Islands / Malvinas"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Norway",
+    "lat": 61.357092,
+    "lon": 9.679975,
+    "aliases": [
+      "Norway"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Greenland",
+    "lat": 74.319387,
+    "lon": -39.335251,
+    "aliases": [
+      "Greenland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "lat": -49.303721,
+    "lon": 69.122136,
+    "aliases": [
+      "French Southern and Antarctic Lands"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "East Timor",
+    "lat": -8.803705,
+    "lon": 125.854679,
+    "aliases": [
+      "East Timor",
+      "Timor-Leste"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "South Africa",
+    "lat": -29.708776,
+    "lon": 23.665734,
+    "aliases": [
+      "South Africa"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Lesotho",
+    "lat": -29.480158,
+    "lon": 28.246639,
+    "aliases": [
+      "Lesotho"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Mexico",
+    "lat": 23.919988,
+    "lon": -102.289448,
+    "aliases": [
+      "Mexico"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Uruguay",
+    "lat": -32.961127,
+    "lon": -55.966942,
+    "aliases": [
+      "Uruguay"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Brazil",
+    "lat": -12.098687,
+    "lon": -49.55945,
+    "aliases": [
+      "Brazil"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Bolivia",
+    "lat": -16.666015,
+    "lon": -64.593433,
+    "aliases": [
+      "Bolivia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Peru",
+    "lat": -12.976679,
+    "lon": -72.90016,
+    "aliases": [
+      "Peru"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Colombia",
+    "lat": 3.373111,
+    "lon": -73.174347,
+    "aliases": [
+      "Colombia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Panama",
+    "lat": 8.72198,
+    "lon": -80.352106,
+    "aliases": [
+      "Panama"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Costa Rica",
+    "lat": 10.0651,
+    "lon": -84.077922,
+    "aliases": [
+      "Costa Rica"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Nicaragua",
+    "lat": 12.670697,
+    "lon": -85.069347,
+    "aliases": [
+      "Nicaragua"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Honduras",
+    "lat": 14.794801,
+    "lon": -86.887604,
+    "aliases": [
+      "Honduras"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "El Salvador",
+    "lat": 13.685371,
+    "lon": -88.890124,
+    "aliases": [
+      "El Salvador"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Guatemala",
+    "lat": 14.982133,
+    "lon": -90.497134,
+    "aliases": [
+      "Guatemala"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Belize",
+    "lat": 17.202068,
+    "lon": -88.712962,
+    "aliases": [
+      "Belize"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Venezuela",
+    "lat": 7.182476,
+    "lon": -64.599381,
+    "aliases": [
+      "Venezuela"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Guyana",
+    "lat": 5.124317,
+    "lon": -58.942643,
+    "aliases": [
+      "Guyana"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Suriname",
+    "lat": 4.143987,
+    "lon": -55.91094,
+    "aliases": [
+      "Suriname"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "France",
+    "lat": 46.696113,
+    "lon": 2.552275,
+    "aliases": [
+      "France"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Ecuador",
+    "lat": -1.259076,
+    "lon": -78.188375,
+    "aliases": [
+      "Ecuador"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Puerto Rico",
+    "lat": 18.234668,
+    "lon": -66.481065,
+    "aliases": [
+      "Puerto Rico"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Jamaica",
+    "lat": 18.137124,
+    "lon": -77.318767,
+    "aliases": [
+      "Jamaica"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Cuba",
+    "lat": 21.334024,
+    "lon": -77.975855,
+    "aliases": [
+      "Cuba"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Zimbabwe",
+    "lat": -18.91164,
+    "lon": 29.925444,
+    "aliases": [
+      "Zimbabwe"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Botswana",
+    "lat": -22.102634,
+    "lon": 24.179216,
+    "aliases": [
+      "Botswana"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Namibia",
+    "lat": -20.575298,
+    "lon": 17.108166,
+    "aliases": [
+      "Namibia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Senegal",
+    "lat": 15.138125,
+    "lon": -14.778586,
+    "aliases": [
+      "Senegal"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Mali",
+    "lat": 18.692713,
+    "lon": -2.038455,
+    "aliases": [
+      "Mali"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Mauritania",
+    "lat": 19.587062,
+    "lon": -9.740299,
+    "aliases": [
+      "Mauritania"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Benin",
+    "lat": 10.324775,
+    "lon": 2.352018,
+    "aliases": [
+      "Benin"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Niger",
+    "lat": 17.446195,
+    "lon": 9.504356,
+    "aliases": [
+      "Niger"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Nigeria",
+    "lat": 9.439799,
+    "lon": 7.50322,
+    "aliases": [
+      "Nigeria"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Cameroon",
+    "lat": 4.585041,
+    "lon": 12.473488,
+    "aliases": [
+      "Cameroon"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Togo",
+    "lat": 8.80722,
+    "lon": 1.058113,
+    "aliases": [
+      "Togo"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Ghana",
+    "lat": 7.717639,
+    "lon": -1.036941,
+    "aliases": [
+      "Ghana"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Ivory Coast",
+    "lat": 7.49139,
+    "lon": -5.568618,
+    "aliases": [
+      "Ivory Coast",
+      "Côte d'Ivoire"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Guinea",
+    "lat": 10.618516,
+    "lon": -10.016402,
+    "aliases": [
+      "Guinea"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "lat": 12.163712,
+    "lon": -14.52413,
+    "aliases": [
+      "Guinea-Bissau"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Liberia",
+    "lat": 6.447177,
+    "lon": -9.460379,
+    "aliases": [
+      "Liberia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Sierra Leone",
+    "lat": 8.617449,
+    "lon": -11.763677,
+    "aliases": [
+      "Sierra Leone"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Burkina Faso",
+    "lat": 12.673048,
+    "lon": -1.36388,
+    "aliases": [
+      "Burkina Faso"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Central African Republic",
+    "lat": 6.989681,
+    "lon": 20.906897,
+    "aliases": [
+      "Central African Republic"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Republic of the Congo",
+    "lat": 0.142331,
+    "lon": 15.9005,
+    "aliases": [
+      "Republic of the Congo"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Gabon",
+    "lat": -0.437739,
+    "lon": 11.835939,
+    "aliases": [
+      "Gabon"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "lat": 2.333,
+    "lon": 8.9902,
+    "aliases": [
+      "Equatorial Guinea"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Zambia",
+    "lat": -14.660804,
+    "lon": 26.395298,
+    "aliases": [
+      "Zambia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Malawi",
+    "lat": -13.386737,
+    "lon": 33.608082,
+    "aliases": [
+      "Malawi"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Mozambique",
+    "lat": -13.94323,
+    "lon": 37.83789,
+    "aliases": [
+      "Mozambique"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Eswatini",
+    "lat": -26.533676,
+    "lon": 31.467264,
+    "aliases": [
+      "Eswatini",
+      "eSwatini",
+      "Kingdom of eSwatini"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Angola",
+    "lat": -12.182762,
+    "lon": 17.984249,
+    "aliases": [
+      "Angola"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Burundi",
+    "lat": -3.332836,
+    "lon": 29.917086,
+    "aliases": [
+      "Burundi"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Israel",
+    "lat": 30.911148,
+    "lon": 34.847915,
+    "aliases": [
+      "Israel"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Lebanon",
+    "lat": 34.133368,
+    "lon": 35.992892,
+    "aliases": [
+      "Lebanon"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Madagascar",
+    "lat": -18.628288,
+    "lon": 46.704241,
+    "aliases": [
+      "Madagascar"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Palestine",
+    "lat": 32.047431,
+    "lon": 35.291341,
+    "aliases": [
+      "Palestine"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "The Gambia",
+    "lat": 13.641721,
+    "lon": -14.998318,
+    "aliases": [
+      "The Gambia",
+      "Gambia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Tunisia",
+    "lat": 33.687263,
+    "lon": 9.007881,
+    "aliases": [
+      "Tunisia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Algeria",
+    "lat": 27.397406,
+    "lon": 2.808241,
+    "aliases": [
+      "Algeria"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Jordan",
+    "lat": 30.805025,
+    "lon": 36.375991,
+    "aliases": [
+      "Jordan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "United Arab Emirates",
+    "lat": 23.466285,
+    "lon": 54.547256,
+    "aliases": [
+      "United Arab Emirates"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Qatar",
+    "lat": 25.237383,
+    "lon": 51.143509,
+    "aliases": [
+      "Qatar"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Kuwait",
+    "lat": 29.413628,
+    "lon": 47.313999,
+    "aliases": [
+      "Kuwait"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Iraq",
+    "lat": 33.09403,
+    "lon": 43.26181,
+    "aliases": [
+      "Iraq"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Oman",
+    "lat": 22.120427,
+    "lon": 57.336553,
+    "aliases": [
+      "Oman"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Vanuatu",
+    "lat": -15.37153,
+    "lon": 166.908762,
+    "aliases": [
+      "Vanuatu"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Cambodia",
+    "lat": 12.647584,
+    "lon": 104.50487,
+    "aliases": [
+      "Cambodia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Thailand",
+    "lat": 15.45974,
+    "lon": 101.073198,
+    "aliases": [
+      "Thailand"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Laos",
+    "lat": 19.431821,
+    "lon": 102.533912,
+    "aliases": [
+      "Laos",
+      "Lao PDR"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Myanmar",
+    "lat": 21.573855,
+    "lon": 95.804497,
+    "aliases": [
+      "Myanmar"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Vietnam",
+    "lat": 21.715416,
+    "lon": 105.387292,
+    "aliases": [
+      "Vietnam"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "North Korea",
+    "lat": 39.885252,
+    "lon": 126.444516,
+    "aliases": [
+      "North Korea",
+      "Dem. Rep. Korea"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "South Korea",
+    "lat": 36.384924,
+    "lon": 128.129504,
+    "aliases": [
+      "South Korea",
+      "Republic of Korea"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Mongolia",
+    "lat": 45.997488,
+    "lon": 104.150405,
+    "aliases": [
+      "Mongolia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "India",
+    "lat": 22.686852,
+    "lon": 79.358105,
+    "aliases": [
+      "India"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Bangladesh",
+    "lat": 24.214956,
+    "lon": 89.684963,
+    "aliases": [
+      "Bangladesh"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Bhutan",
+    "lat": 27.536685,
+    "lon": 90.040294,
+    "aliases": [
+      "Bhutan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Nepal",
+    "lat": 28.297925,
+    "lon": 83.639914,
+    "aliases": [
+      "Nepal"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Pakistan",
+    "lat": 29.328389,
+    "lon": 68.545632,
+    "aliases": [
+      "Pakistan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Afghanistan",
+    "lat": 34.164262,
+    "lon": 66.496586,
+    "aliases": [
+      "Afghanistan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Tajikistan",
+    "lat": 38.199835,
+    "lon": 72.587276,
+    "aliases": [
+      "Tajikistan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "lat": 41.66854,
+    "lon": 74.532637,
+    "aliases": [
+      "Kyrgyzstan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Turkmenistan",
+    "lat": 39.855246,
+    "lon": 58.676647,
+    "aliases": [
+      "Turkmenistan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Iran",
+    "lat": 32.166225,
+    "lon": 54.931495,
+    "aliases": [
+      "Iran"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Syria",
+    "lat": 35.006636,
+    "lon": 38.277783,
+    "aliases": [
+      "Syria"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Armenia",
+    "lat": 40.459077,
+    "lon": 44.800564,
+    "aliases": [
+      "Armenia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Sweden",
+    "lat": 65.85918,
+    "lon": 19.01705,
+    "aliases": [
+      "Sweden"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Belarus",
+    "lat": 53.821888,
+    "lon": 28.417701,
+    "aliases": [
+      "Belarus"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Ukraine",
+    "lat": 49.724739,
+    "lon": 32.140865,
+    "aliases": [
+      "Ukraine"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Poland",
+    "lat": 51.990316,
+    "lon": 19.490468,
+    "aliases": [
+      "Poland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Austria",
+    "lat": 47.518859,
+    "lon": 14.130515,
+    "aliases": [
+      "Austria"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Hungary",
+    "lat": 47.086841,
+    "lon": 19.447867,
+    "aliases": [
+      "Hungary"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Moldova",
+    "lat": 47.434999,
+    "lon": 28.487904,
+    "aliases": [
+      "Moldova"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Romania",
+    "lat": 45.733237,
+    "lon": 24.972624,
+    "aliases": [
+      "Romania"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Lithuania",
+    "lat": 55.103703,
+    "lon": 24.089932,
+    "aliases": [
+      "Lithuania"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Latvia",
+    "lat": 57.066872,
+    "lon": 25.458723,
+    "aliases": [
+      "Latvia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Estonia",
+    "lat": 58.724865,
+    "lon": 25.867126,
+    "aliases": [
+      "Estonia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Germany",
+    "lat": 50.961733,
+    "lon": 9.678348,
+    "aliases": [
+      "Germany"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Bulgaria",
+    "lat": 42.508785,
+    "lon": 25.15709,
+    "aliases": [
+      "Bulgaria"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Greece",
+    "lat": 39.492763,
+    "lon": 21.72568,
+    "aliases": [
+      "Greece"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Turkey",
+    "lat": 39.345388,
+    "lon": 34.508268,
+    "aliases": [
+      "Turkey"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Albania",
+    "lat": 40.654855,
+    "lon": 20.11384,
+    "aliases": [
+      "Albania"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Croatia",
+    "lat": 45.805799,
+    "lon": 16.37241,
+    "aliases": [
+      "Croatia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Switzerland",
+    "lat": 46.719114,
+    "lon": 7.463965,
+    "aliases": [
+      "Switzerland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Luxembourg",
+    "lat": 49.733732,
+    "lon": 6.07762,
+    "aliases": [
+      "Luxembourg"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Belgium",
+    "lat": 50.785392,
+    "lon": 4.800448,
+    "aliases": [
+      "Belgium"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Netherlands",
+    "lat": 52.422211,
+    "lon": 5.61144,
+    "aliases": [
+      "Netherlands"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Portugal",
+    "lat": 39.606675,
+    "lon": -8.271754,
+    "aliases": [
+      "Portugal"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Spain",
+    "lat": 40.090953,
+    "lon": -3.464718,
+    "aliases": [
+      "Spain"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Ireland",
+    "lat": 53.078726,
+    "lon": -7.798588,
+    "aliases": [
+      "Ireland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "New Caledonia",
+    "lat": -21.064697,
+    "lon": 165.084004,
+    "aliases": [
+      "New Caledonia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Solomon Islands",
+    "lat": -8.029548,
+    "lon": 159.170468,
+    "aliases": [
+      "Solomon Islands"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "New Zealand",
+    "lat": -39.759,
+    "lon": 172.787,
+    "aliases": [
+      "New Zealand"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Australia",
+    "lat": -24.129522,
+    "lon": 134.04972,
+    "aliases": [
+      "Australia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Sri Lanka",
+    "lat": 7.581097,
+    "lon": 80.704823,
+    "aliases": [
+      "Sri Lanka"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "People's Republic of China",
+    "lat": 32.498178,
+    "lon": 106.337289,
+    "aliases": [
+      "People's Republic of China",
+      "China"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Taiwan",
+    "lat": 23.652408,
+    "lon": 120.868204,
+    "aliases": [
+      "Taiwan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Italy",
+    "lat": 44.732482,
+    "lon": 11.076907,
+    "aliases": [
+      "Italy"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Denmark",
+    "lat": 55.966965,
+    "lon": 9.018163,
+    "aliases": [
+      "Denmark"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "United Kingdom",
+    "lat": 54.402739,
+    "lon": -2.116346,
+    "aliases": [
+      "United Kingdom"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Iceland",
+    "lat": 64.779286,
+    "lon": -18.673711,
+    "aliases": [
+      "Iceland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Azerbaijan",
+    "lat": 40.402387,
+    "lon": 47.210994,
+    "aliases": [
+      "Azerbaijan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Georgia",
+    "lat": 41.870087,
+    "lon": 43.735724,
+    "aliases": [
+      "Georgia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Philippines",
+    "lat": 11.198,
+    "lon": 122.465,
+    "aliases": [
+      "Philippines"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Malaysia",
+    "lat": 2.528667,
+    "lon": 113.83708,
+    "aliases": [
+      "Malaysia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Brunei",
+    "lat": 4.448298,
+    "lon": 114.551943,
+    "aliases": [
+      "Brunei",
+      "Brunei Darussalam"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Slovenia",
+    "lat": 46.06076,
+    "lon": 14.915312,
+    "aliases": [
+      "Slovenia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Finland",
+    "lat": 63.252361,
+    "lon": 27.276449,
+    "aliases": [
+      "Finland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Slovakia",
+    "lat": 48.734044,
+    "lon": 19.049868,
+    "aliases": [
+      "Slovakia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Czech Republic",
+    "lat": 49.882364,
+    "lon": 15.377555,
+    "aliases": [
+      "Czech Republic",
+      "Czechia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Eritrea",
+    "lat": 15.787401,
+    "lon": 38.285566,
+    "aliases": [
+      "Eritrea"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Japan",
+    "lat": 36.142538,
+    "lon": 138.44217,
+    "aliases": [
+      "Japan"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Paraguay",
+    "lat": -21.674509,
+    "lon": -60.146394,
+    "aliases": [
+      "Paraguay"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Yemen",
+    "lat": 15.328226,
+    "lon": 45.874383,
+    "aliases": [
+      "Yemen"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Saudi Arabia",
+    "lat": 23.806908,
+    "lon": 44.6996,
+    "aliases": [
+      "Saudi Arabia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Antarctica",
+    "lat": -79.843222,
+    "lon": 35.885455,
+    "aliases": [
+      "Antarctica"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Turkish Republic of Northern Cyprus",
+    "lat": 35.216071,
+    "lon": 33.692434,
+    "aliases": [
+      "Turkish Republic of Northern Cyprus",
+      "Northern Cyprus"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Cyprus",
+    "lat": 34.913329,
+    "lon": 33.084182,
+    "aliases": [
+      "Cyprus"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Morocco",
+    "lat": 31.650723,
+    "lon": -7.187296,
+    "aliases": [
+      "Morocco"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Egypt",
+    "lat": 26.186173,
+    "lon": 29.445837,
+    "aliases": [
+      "Egypt"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Libya",
+    "lat": 26.638944,
+    "lon": 18.011015,
+    "aliases": [
+      "Libya"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Ethiopia",
+    "lat": 8.032795,
+    "lon": 39.0886,
+    "aliases": [
+      "Ethiopia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Djibouti",
+    "lat": 11.976343,
+    "lon": 42.498825,
+    "aliases": [
+      "Djibouti"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Somaliland",
+    "lat": 9.443889,
+    "lon": 46.731595,
+    "aliases": [
+      "Somaliland"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Uganda",
+    "lat": 1.972589,
+    "lon": 32.948555,
+    "aliases": [
+      "Uganda"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Rwanda",
+    "lat": -1.897196,
+    "lon": 30.103894,
+    "aliases": [
+      "Rwanda"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "lat": 44.091051,
+    "lon": 18.06841,
+    "aliases": [
+      "Bosnia and Herzegovina"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "North Macedonia",
+    "lat": 41.558223,
+    "lon": 21.555839,
+    "aliases": [
+      "North Macedonia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Serbia",
+    "lat": 44.189919,
+    "lon": 20.787989,
+    "aliases": [
+      "Serbia",
+      "Republic of Serbia"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Montenegro",
+    "lat": 42.803101,
+    "lon": 19.143727,
+    "aliases": [
+      "Montenegro"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Kosovo",
+    "lat": 42.593587,
+    "lon": 20.860719,
+    "aliases": [
+      "Kosovo"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "lat": 10.9989,
+    "lon": -60.9184,
+    "aliases": [
+      "Trinidad and Tobago"
+    ],
+    "scale": "Country reference"
+  },
+  {
+    "name": "South Sudan",
+    "lat": 7.230477,
+    "lon": 30.390151,
+    "aliases": [
+      "South Sudan"
+    ],
+    "scale": "Country reference"
+  }
+]

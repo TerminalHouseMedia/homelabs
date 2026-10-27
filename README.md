@@ -5,6 +5,7 @@ also have a companion video.
 
 | Project | What it covers | Video |
 |---|---|---|
+| [gods-eye-view](gods-eye-view/) | Source-linked global events, stream panel integration, and regression checks. | — |
 | [gpu-worker-monitoring](gpu-worker-monitoring/) | Windows GPU metrics, collector freshness, and Prometheus scrape examples. | — |
 | [prometheus-grafana](prometheus-grafana/) | Monitoring infrastructure and lab nodes with Prometheus, node_exporter, and Grafana. Includes stateless Warewulf compute nodes. | [Watch](https://www.youtube.com/watch?v=FK3gSoV4Ftg) |
 | [tailscale-remote-access](tailscale-remote-access/) | Reaching both homelab networks remotely through an AlmaLinux subnet router. | [Watch](https://www.youtube.com/watch?v=VumPIXVq9lg) |
